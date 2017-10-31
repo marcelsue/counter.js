@@ -35,11 +35,11 @@ function log1(msg, doAlert) {
 /*Cargando Funcion de Incrementar y Decrementar Contador Vida1 mediante Click*/
 function incrementCounter1 () {
        counter1++;
-       log1( "Vida: " + counter1 );
+       log1( "Life: " + counter1 );
 }
 function decrementCounter1 () {
     counter1--;
-    log1( "Vida: " + counter1 );
+    log1( "Life: " + counter1 );
 }
 
 /*Contador de Vidas: Jugador 2*/
@@ -54,11 +54,11 @@ function log2(msg, doAlert) {
 /*Cargando Funcion de Incrementar y Decrementar Contador Vida2 mediante Click*/
 function incrementCounter2 () {
        counter2++;
-       log2( "Vida: " + counter2 );
+       log2( "Life: " + counter2 );
 }
 function decrementCounter2 () {
     counter2--;
-    log2( "Vida: " + counter2 );
+    log2( "Life: " + counter2 );
 }
 
 /*Contador de Infect: Jugador 1*/
@@ -73,11 +73,11 @@ function log3(msg, doAlert) {
 /*Cargando Funcion de Incrementar y Decrementar Contador Infect1 mediante Click*/
 function incrementCounter3 () {
        counter3++;
-       log3( "Veneno: " + counter3 );
+       log3( "Poison: " + counter3 );
 }
 function decrementCounter3 () {
     counter3--;
-    log3( "Veneno: " + counter3 );
+    log3( "Poison: " + counter3 );
 }
 /*Contador de Infect: Jugador 2*/
 var counter4 = 0;
@@ -91,11 +91,11 @@ function log4(msg, doAlert) {
 /*Cargando Funcion de Incrementar y Decrementar Contador Infect2 mediante Click*/
 function incrementCounter4 () {
        counter4++;
-       log4( "Veneno: " + counter4 );
+       log4( "Poison: " + counter4 );
 }
 function decrementCounter4 () {
     counter4--;
-    log4( "Veneno: " + counter4 );
+    log4( "Poison: " + counter4 );
 }
 
 /*Contadores Varios*/
@@ -108,11 +108,11 @@ function log5(msg, doAlert) {
 }
 function incrementCounter5 () {
     counter5++;
-    log5( "Contador: " + counter5 );
+    log5( "Counter: " + counter5 );
 }
 function decrementCounter5 () {
  counter5--;
- log5( "Contador: " + counter5 );
+ log5( "Counter: " + counter5 );
 }
 
 var counter6 = 0;
@@ -124,11 +124,11 @@ function log6(msg, doAlert) {
 }
 function incrementCounter6 () {
     counter6++;
-    log6( "Contador: " + counter6 );
+    log6( "Counter: " + counter6 );
 }
 function decrementCounter6 () {
  counter6--;
- log6( "Contador: " + counter6 );
+ log6( "Counter: " + counter6 );
 }
 
 var counter7 = 0;
@@ -140,11 +140,11 @@ function log7(msg, doAlert) {
 }
 function incrementCounter7 () {
     counter7++;
-    log7( "Contador: " + counter7 );
+    log7( "Counter: " + counter7 );
 }
 function decrementCounter7 () {
  counter7--;
- log7( "Contador: " + counter7 );
+ log7( "Counter: " + counter7 );
 }
 
 window.addEventListener("load", doLoad, false);

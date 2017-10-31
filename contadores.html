@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Partida Nueva</title>
+<script language="javascript" type="text/javascript" src="javascripts/contadores.js"></script>
+<script language="javascript" type="text/javascript" src="javascripts/cronometro.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<body background="imgapp/fondo.png">
+<P align=left>
+<font color="FFFAFA" size="6" face="Comic Sans MS,arial,verdana">Contadores</font> 
+</P>
+
+
+	<div id="Jugador1">
+		<!--Contador de Vidas: Jugador 1-->
+		<button id="btnIncrement1">Subir</button>
+		<br>
+		<button id="btnDecrement1">Bajar</button>
+		<div id="statusMessages1" style="font-weight: bold; color: #FFFAFA;" > </div>
+		<br>
+		<!--Contador de Veneno: Jugador 1-->
+		<button id="btnInfect1">Subir</button>
+		<br>
+		<button id="btnDecrinfect1">Bajar</button>
+		<div id="statusMessages3" style="font-weight: bold; color: #FFFAFA;" > </div>
+		<br>
+	</div>
+	
+	<div id="Jugador2">
+		<!--Contador de Vidas: Jugador 2-->
+		<button id="btnIncrement2">Subir</button>
+		<br>
+		<button id="btnDecrement2">Bajar</button>
+		<div id="statusMessages2" style="font-weight: bold; color: #FFFAFA;" > </div>
+		<br>
+		<!--Contador de Veneno: Jugador 2-->
+		<button id="btnInfect2">Subir</button>
+		<br>
+		<button id="btnDecrinfect2">Bajar</button>
+		<div id="statusMessages4" style="font-weight: bold; color: #FFFAFA;" > </div>
+		<br>
+	</div>
+	
+	<div id="ContadoresVarios">
+		<button id="btnIncrement5">Subir</button>
+		<br>
+		<button id="btnDecrement5">Bajar</button>
+		<div id="statusMessages5" style="font-weight: bold; color: #FFFF00;" > </div>
+		<br>
+		<button id="btnIncrement6">Subir</button>
+		<br>
+		<button id="btnDecrement6">Bajar</button>
+		<div id="statusMessages6" style="font-weight: bold; color: #191970;" > </div>
+		<br>
+		<button id="btnIncrement7">Subir</button>
+		<br>
+		<button id="btnDecrement7">Bajar</button>
+		<div id="statusMessages7" style="font-weight: bold; color: #8B0000;" > </div>
+		<br>	
+	</div>
+	
+	<div id="CajaTexto">
+			<form>
+			<textarea name="CajaTexto" rows="7" cols="40">Inserta Contenido Aqui!</textarea>
+			</form>	
+	</div>
+	
+	<div id="Cronometro">   
+   	 	<form name="crono">  
+    	<p><input type="text" size="8" name="display" value="00:00:0"> <input type="button" name="Iniciar" value=" Iniciar " onClick="IniciarCrono()">  
+    	<input type="text" size="8" name="parcial" value="00:00:0 "> <input type="button" name="Parcial" value="Parcial" onClick="ObtenerParcial()"></p>  
+    	<p><input type="button" name="Parar" value=" Parar " onClick="DetenerCrono()"> <input type="button" name="Cero" value="  Cero  " onClick="DetenerCrono(); InicializarCrono()"></p>    
+    	</form>
+    </div>
+    
+	<div id="BotonAtras">
+		<input type="button" value="Atras" onClick="history.go(-1)">
+	</div>
+
+	<div id="Resetear">
+		<script language="JavaScript">
+			document.write('<form><input type=button value="Resetear" onClick="history.go()"></form>')
+		</script>
+	</div>
+	
+</body>
+</html>

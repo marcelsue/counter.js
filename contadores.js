@@ -1,24 +1,24 @@
 /*Funciones de Carga*/
 function doLoad() {
-       log1( "Vida: " + counter1 );
+       log1( "Life: " + counter1 );
        document.getElementById("btnIncrement1").addEventListener("click", incrementCounter1, false);
        document.getElementById("btnDecrement1").addEventListener("click", decrementCounter1, false);
-       log2( "Vida: " + counter2 );
+       log2( "Life: " + counter2 );
        document.getElementById("btnIncrement2").addEventListener("click", incrementCounter2, false);
        document.getElementById("btnDecrement2").addEventListener("click", decrementCounter2, false);
-       log3( "Veneno: " + counter3 );
+       log3( "Poison: " + counter3 );
        document.getElementById("btnInfect1").addEventListener("click", incrementCounter3, false);
        document.getElementById("btnDecrinfect1").addEventListener("click", decrementCounter3, false);
-       log4( "Veneno: " + counter4 );
+       log4( "Poison: " + counter4 );
        document.getElementById("btnInfect2").addEventListener("click", incrementCounter4, false);
        document.getElementById("btnDecrinfect2").addEventListener("click", decrementCounter4, false);
-       log5( "Contador: " + counter5 );
+       log5( "Counter: " + counter5 );
        document.getElementById("btnIncrement5").addEventListener("click", incrementCounter5, false);
        document.getElementById("btnDecrement5").addEventListener("click", decrementCounter5, false);
-       log6( "Contador: " + counter6 );
+       log6( "Counter: " + counter6 );
        document.getElementById("btnIncrement6").addEventListener("click", incrementCounter6, false);
        document.getElementById("btnDecrement6").addEventListener("click", decrementCounter6, false);
-       log7( "Contador: " + counter7 );
+       log7( "Counter: " + counter7 );
        document.getElementById("btnIncrement7").addEventListener("click", incrementCounter7, false);
        document.getElementById("btnDecrement7").addEventListener("click", decrementCounter7, false);
 }

@@ -23,7 +23,7 @@ function doLoad() {
        document.getElementById("btnDecrement7").addEventListener("click", decrementCounter7, false);
 }
 
-/*Contador de Vidas: Jugador 1*/
+/*Contador de Vidas: Jugador 1 - Se tiene planificado cambiar estas vidas por 100 de HP*/
 var counter1 = 20;
 function log1(msg, doAlert) {
        document.getElementById("statusMessages1").innerHTML = msg;
@@ -42,7 +42,7 @@ function decrementCounter1 () {
     log1( "Life: " + counter1 );
 }
 
-/*Contador de Vidas: Jugador 2*/
+/*Contador de Vidas: Jugador 2 - Se tiene planificado cambiar estas vidas por 100 de HP*/
 var counter2 = 20;
 function log2(msg, doAlert) {
        document.getElementById("statusMessages2").innerHTML = msg;
